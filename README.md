@@ -5,6 +5,11 @@ Test your speed and accuracy by clicking the correct bubbles before time runs ou
 
 ---
 
+## 🚀 Live Demo
+👉 https://moleeekkk.github.io/Bubble_Game/
+
+---
+
 ## 🎮 How to Play
 
 - A random **target number (Hit)** is displayed.
