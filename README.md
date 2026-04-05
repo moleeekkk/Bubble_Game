@@ -5,12 +5,6 @@ Test your speed and accuracy by clicking the correct bubbles before time runs ou
 
 ---
 
-## 🚀 Live Demo
-
-👉 (Add your live link here if hosted)
-
----
-
 ## 🎮 How to Play
 
 - A random **target number (Hit)** is displayed.
@@ -74,16 +68,18 @@ Test your speed and accuracy by clicking the correct bubbles before time runs ou
 
 ## 📂 Project Structure
 
+```bash
 Bubble-Game/
-│── index.html # Main HTML file (structure of the game)
-│── style.css # Styling and layout of the game
-│── script.js # Game logic and functionality
-│── README.md # Project documentation
+│── index.html
+│── style.css
+│── script.js
+│── README.md
 │
-└── images/ # Screenshots and assets
-├── play-game.png
-├── gameplay.png
-└── game-over.png
+└── images/
+    ├── play-game.png
+    ├── gameplay.png
+    └── game-over.png
+```
 
 ---
 
