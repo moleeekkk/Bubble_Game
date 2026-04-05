@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Bubble Game By Moleeekkk</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="main-screen" id="main-screen-div">
+      <div class="main-screen-item" id="play">
+        <button class="play-btn" onclick="playGame()">PLAY</button>
+        <h3>YOUR HIGH SCORE : <span class="high-score">00</span></h3>
+      </div>
+      <div class="main-screen-item" id="game-over">
+        <h1>GAME OVER!</h1>
+        <button class="play-btn" onclick="playGame()">RETRY</button>
+        <h3>CURRENT SCORE : <span id="curr-score">00</span></h3>
+        <h3>HIGH SCORE : <span class="high-score">00</span></h3>
+      </div>
+    </div>
+
+
+    <div class="main">
+      <div id="ptop">
+        <div class="top-item">
+          <h4>Hit :</h4>
+          <div class="box" id="hitval">00</div>
+        </div>
+        <div class="top-item">
+          <h4>Score :</h4>
+          <div class="box" id="scoreval">00</div>
+        </div>
+        <div class="top-item">
+          <h4>Time :</h4>
+          <div class="box" id="timeval">60</div>
+        </div>
+      </div>
+      <div id="pbtm">
+        <!-- Bubble Game By Moleeekkk -->
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
