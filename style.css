@@ -118,3 +118,54 @@
 .main-screen-item h3 {
   margin: 10px 0px;
 }
+
+@media (max-width: 768px) {
+
+  .play-btn {
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
+
+  .box {
+    font-size: 14px;
+    padding: 6px 10px;
+  }
+
+  .bubble {
+    width: 35px;
+    height: 35px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+
+  #ptop {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .top-item {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .bubble {
+    width: 30px;
+    height: 30px;
+    font-size: 10px;
+    margin: 3px;
+  }
+
+  .play-btn {
+    width: 80%;
+  }
+}
